@@ -1,8 +1,8 @@
-## [mldangelo.com](http://mldangelo.com) and simplified [mldangelo.github.io/personal-site](https://mldangelo.github.io/personal-site/)
+## Personal CV
 
 My personal website. Easily modifiable, and built using modern javascript with Node.js, React, Express, React-Router, Hot Module Reloading, Webpack and many other technologies.
 
-The master branch of this repository contains a simplified version of my website intended for serverless hosting on github pages. To view the source for the version hosted at [mldangelo.com](http://mldangelo.com), checkout the [server](https://github.com/mldangelo/personal-site/tree/server) branch.
+The master branch of this repository contains a simplified version of my website intended for serverless hosting on github pages. 
 
 
 
@@ -48,28 +48,17 @@ This completes set up instructions. Please continue reading to learn how to modi
 6. Change the description in `server/views/index.tpl.html`. You may also wish to add a new favicon or remove it. [This](https://realfavicongenerator.net/) website may be helpful.
 7. Decide how and where you are going to host this project. I recommend purchasing your own domain name from [Google Domains](https://domains.google). If you would like to host on github pages, run `npm run deploy`. This will generate a new branch called `gh-pages`. Then go to `https://github.com/[your github username]/personal-site/settings` and configure accordingly:
 
-![github hosting instructions](docs/gh-pages.png)
 
 8. Configure your domains DNS record. See [here]( https://help.github.com/articles/using-a-custom-domain-with-github-pages/) for more information.
 9. If using a custom url, modify the `CNAME` file to point to your URL. Modify the npm deploy script by appending `&& cp CNAME dist/` to the end of the `predeploy` line in the scripts section of package.json.
 If you plan to deploy to a /[path]
-(e.g. http://mldangelo.github.io/personal-site/), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
+(e.g. https://mtanaya.github.io/MT/), you should modify `BASE_PATH` in your `.env` and `sample.env` files and restart the express server. Note that you will now have to navigate to `localhost:[port]/[BASE_PATH]` when developing.
 
 ###  Deploying to Github Pages:
 1. Change `NODE_ENV` to `production` in `.env`
 2. Run `npm run deploy`
 
 That's it.
-
-Please feel free to reach out to me by filing an issue or at help@mldangelo.com for help configuring your project.
-
-### Contributors
-- [@mldangelo](https://github.com/mldangelo)
-- [@typpo](https://github.com/typpo)
-
-### Acknowlegements
-- Special thanks to [@typpo](https://github.com/typpo) for tirelessly answering all of my node.js and react questions.
-- Template based on [Future Imperfect](https://html5up.net/future-imperfect) by [@ajlkn](https://github.com/ajlkn) for [HTML5 UP](html5up.net).
 
 ### License
 [MIT](https://github.com/mldangelo/personal-site/blob/master/LICENSE)
