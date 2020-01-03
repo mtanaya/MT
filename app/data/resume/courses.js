@@ -1,19 +1,30 @@
 const courses = [
   {
-    title: 'Convex Optimization',
-    number: 'EE 364a',
-    link: 'http://stanford.edu/class/ee364a/',
-    univerity: 'Stanford',
+    title: 'Distributed Programming',
+    number: 'CSS 533',
+    link: 'https://www.washington.edu/students/crscatb/css.html#css533',
+    univerity: 'UWB',
   }, {
     title: 'Machine Learning',
-    number: 'CS 229',
-    link: 'http://cs229.stanford.edu/',
-    univerity: 'Stanford',
+    number: 'CSS 581',
+    link: 'https://www.washington.edu/students/crscatb/css.html#css581',
+    univerity: 'UWB',
   }, {
-    title: 'Convolutional Neural Networks for Visual Recognition',
-    number: 'CS 231n',
-    link: 'http://cs231n.stanford.edu/',
-    univerity: 'Stanford',
+    title: 'Evaluationg Software Design',
+    number: 'CSS 555',
+    link: 'https://www.washington.edu/students/crscatb/css.html#css555',
+    univerity: 'UWB',
+  },
+  {
+    title: 'Software Management',
+    number: 'CSS 566',
+    link: 'https://www.washington.edu/students/crscatb/css.html#css566',
+    univerity: 'UWB',
+  }, {
+    title: 'Neural Networks and Deep Learning',
+    number: 'deeplearning.ai',
+    link: 'https://www.coursera.org/account/accomplishments/verify/9M4NY3FDLZB5',
+    univerity: 'deeplearning.ai',
   },
 ];
 

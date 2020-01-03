@@ -65,8 +65,13 @@ export const skills = [
     category: ['Tools', 'Languages'],
   },
   {
-    title: 'Amazon Web Services',
+    title: 'Azure',
     compentency: 4,
+    category: ['Web Development', 'Tools'],
+  },
+  {
+    title: 'Amazon Web Services',
+    compentency: 3,
     category: ['Web Development', 'Tools'],
   },
   {
@@ -76,17 +81,32 @@ export const skills = [
   },
   {
     title: 'MongoDB',
-    compentency: 4,
-    category: ['Web Development', 'Databases'],
-  },
-  {
-    title: 'ElasticSearch',
     compentency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
-    title: 'SQLite3',
+    title: 'DB2',
     compentency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'MSSQL',
+    compentency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'Oracle',
+    compentency: 4,
+    category: ['Databases'],
+  },
+  {
+    title: 'ElasticSearch',
+    compentency: 2,
+    category: ['Web Development', 'Databases'],
+  },
+  {
+    title: 'SQLite3',
+    compentency: 3,
     category: ['Web Development', 'Databases'],
   },
   {
@@ -105,6 +125,16 @@ export const skills = [
     category: ['Web Development', 'Frameworks', 'Javascript'],
   },
   {
+    title: 'Spring',
+    compentency: 4,
+    category: ['Web Development', 'Frameworks', 'Java'],
+  },
+  {
+    title: '.NET',
+    compentency: 5,
+    category: ['Web Development', 'Frameworks', 'C#'],
+  },
+  {
     title: 'Product Development',
     compentency: 3,
     category: ['Other'],
@@ -116,17 +146,17 @@ export const skills = [
   },
   {
     title: 'Mercurial',
-    compentency: 3,
+    compentency: 5,
     category: ['Tools'],
   },
   {
     title: 'Git',
-    compentency: 3,
+    compentency: 4,
     category: ['Tools'],
   },
   {
     title: 'Numpy',
-    compentency: 3,
+    compentency: 4,
     category: ['Data Science', 'Machine Learning', 'Python'],
   },
   {
@@ -136,17 +166,17 @@ export const skills = [
   },
   {
     title: 'Typescript',
-    compentency: 3,
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'HTML',
-    compentency: 5,
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
     title: 'CSS',
-    compentency: 5,
+    compentency: 4,
     category: ['Web Development', 'Languages'],
   },
   {
@@ -157,7 +187,12 @@ export const skills = [
   },
   {
     title: 'C++',
-    compentency: 3,
+    compentency: 4,
+    category: ['Languages'],
+  },
+  {
+    title: 'C#',
+    compentency: 5,
     category: ['Languages'],
   },
   {
@@ -167,7 +202,7 @@ export const skills = [
   },
   {
     title: 'Lightroom',
-    compentency: 5,
+    compentency: 2,
     category: ['Design'],
   },
   {
