@@ -3,8 +3,8 @@ const data = [
   {
     title: 'FRAMEWORK',
     subtitle: '2015 BVP Hackathon',
-    link: '/projects/nearestdollar/',
-    image: '/images/projects/nearestdollar.jpg',
+    link: '',
+    image: '',
     date: '2015-11-20',
     desc: 'Built for a social impact hackathon. '
       + 'NearestDollar connected to your bank accounts, credit cards, '
@@ -13,8 +13,8 @@ const data = [
   }, {
     title: 'TEST',
     subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    link: '/project/catdetector/',
-    image: '/images/projects/catdetector.jpg',
+    link: '',
+    image: '',
     date: '2015-05-15',
     desc: 'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
      + 'Over 60,000 cats were classified before server bills made the project too expensive '
