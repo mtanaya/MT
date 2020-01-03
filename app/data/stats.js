@@ -5,8 +5,8 @@ const data = {
   },
   countries: {
     label: 'Countries visited',
-    value: 53,
-    link: 'https://www.google.com/maps/d/embed?mid=1iBBTscqateQ93pWFVfHCUZXoDu8&z=2',
+    value: 10,
+    link: 'https://www.google.com/maps/d/u/0/embed?mid=16TXoBtSOtGgIbXMJh1l_eqXLoTSnC5PT',
   },
   location: {
     label: 'Current city',

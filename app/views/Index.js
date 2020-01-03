@@ -12,7 +12,8 @@ const Index = () => (
           <p>A beautiful, responsive, react app written with modern Javascript.</p>
         </div>
       </header>
-      <p> Welcome to my website. Please feel free to read more <Link to="/about">about me</Link>,
+      <p> Welcome to my website. This site is build by untilizing the free information available in github opensourced code, and combining them together.
+         Please feel free to read more <Link to="/about">about me</Link>,
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}

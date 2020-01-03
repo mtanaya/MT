@@ -20,8 +20,8 @@ const Nav = () => (
 
     <section className="blurb">
       <h2>About</h2>
-      <p>Hi, I&apos;m Michael. I like building things.
-            I am a <a href="https://uw.edu/">UW</a> graduate, .
+      <p>Hi, I&apos;m Michael. I like programming stuffs, building things, researching new technologies, and playing games. My passion is food and travel.
+            I am a <a href="https://www.uwb.edu/">UWB</a> CS Master's Program graduate, class of 2017 .
       </p>
       <ul className="actions">
         <li>

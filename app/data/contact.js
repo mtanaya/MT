@@ -6,27 +6,27 @@ import faEnvelope from '@fortawesome/fontawesome-free-regular/faEnvelope';
 
 const data = [
   {
-    link: 'https://github.com/',
+    link: 'https://github.com/mtanaya',
     label: 'Github',
     icon: faGithub,
   },
   {
-    link: 'https://facebook.com/d',
+    link: 'https://www.facebook.com/michael.tanaya.5',
     label: 'Facebook',
     icon: faFacebook,
   },
   {
-    link: 'https://www.instagram.com/',
+    link: 'https://www.instagram.com/tanayamichael',
     label: 'Instagram',
     icon: faInstagram,
   },
   {
-    link: 'https://www.linkedin.com/',
+    link: 'https://www.linkedin.com/in/michael-tanaya-66409560/',
     label: 'LinkedIn',
     icon: faLinkedinIn,
   },
   {
-    link: 'mailto:michael.l.dangelo@gmail.com',
+    link: 'mailto:tanayamichael002@gmail.com',
     label: 'Email',
     icon: faEnvelope,
   },
